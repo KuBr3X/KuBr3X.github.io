@@ -1,3 +1,3 @@
-#overskrift
-- kageside <a href="index.html"> </a>
-- stickman <a href="../sticman/index.html"> </a>
+Jakubs ting
+- Kageside <a href="/kageside/index.html">
+- Stickman <a href="../sticman/index.html"> </a>
