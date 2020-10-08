@@ -1,3 +1,3 @@
 Jakubs ting
 - <a href="/kageside/index.html">Kageside</a>
-- Stickman <a href="../sticman/index.html"> </a>
+- <a href="/sticman/index.html">Stickman</a>
