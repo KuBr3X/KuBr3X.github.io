@@ -1,3 +1,3 @@
 Jakubs ting
-- [kageside](kageside/)
-- [stickman](stickman/)
+- [Kageside](kageside/)
+- [Stickman](stickman/)
