@@ -3,7 +3,7 @@ background-color: bisque
 }
     
     .grid-container  {
-        background-color(20, 143, 219, 0.822);
+        background-color:rgba(115, 255, 0, 0.822);
         padding: 1em 1em;
         font-size: 20px;
 }   
