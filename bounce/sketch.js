@@ -11,6 +11,13 @@ function setup() {
   createCanvas(600,400);
 }
 
+function draw() {
+background(c);
+
+rect(0,0, width, height);
+
+
+
 let d = 120;
 
 circle(x,y,d)
@@ -22,3 +29,4 @@ if (x > width - d/2) {
 
 x = x + xSpeed;
 y = y + yspeed;
+}
