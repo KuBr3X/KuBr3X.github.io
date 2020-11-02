@@ -2,7 +2,7 @@
 let x = 200;
 
 
-let xSpeed = 2;
+let xSpeed = 3;
 let y = 200;
 let ySpeed = 1;
 
