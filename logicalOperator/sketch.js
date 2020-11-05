@@ -17,13 +17,13 @@ line (0,200,400,200)
   let xIsSmall = !xIsLarge
 
   if (xIsLarge && !yIsLarge) {
-    fill("red");
+    fill("blue");
   } else {
     fill("white")
   }
 
   if (!xIsLarge && yIsLarge) {
-    fill("red");
+    fill("blue");
   }
   circle(x, y, circleSize)
 
