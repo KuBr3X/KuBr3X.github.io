@@ -4,4 +4,4 @@ Jakubs projekter
 - [Ballbounce](bounce/)
 - [Logical-Operator-1](logicalOperator/)
 - [Loops](node/)
-- [Parabola](parabola/))
+- [Parabola](parabola/)
