@@ -2,9 +2,9 @@
 let x = 200;
 
 
-let xSpeed = 3;
+let xSpeed = 20;
 let y = 200;
-let ySpeed = 1;
+let ySpeed = 20;
 
 let c;
 let cFill;
@@ -19,7 +19,7 @@ function changeColor() {
 }
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth, windowHeight);
   changeColor();
 }
 
@@ -31,8 +31,16 @@ function draw() {
 
   let d = 120;
 
+  
  
   circle(x, y, d);
+  circle(y*2,x/2,d);
+  circle(x, d, d);
+  circle(d, y, d);
+  circle(x, y, x);
+  circle(d, y, d);
+
+  
 
  
   if (x > width - d / 2) {
@@ -40,7 +48,7 @@ function draw() {
     xSpeed = -xSpeed;
   }
 
-  if (x < 0 + d / 2) {
+  if (x < 0 + d /2) {
     changeColor();
     xSpeed = -xSpeed;
   }
@@ -52,4 +60,5 @@ function draw() {
 
   x = x + xSpeed;
   y = y + ySpeed;
+ 
 }

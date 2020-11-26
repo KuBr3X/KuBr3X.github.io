@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   background(150);
   
-  
+  fill(150)
   circle(50,50,50)
   circle(windowWidth-50,50,50)
   circle(mouseX,mouseY,50)
@@ -25,7 +25,7 @@ function draw() {
     x2 = map(i,0,n,mouseX,windowWidth-50, true);
     // linjerne i mellem y2 dvs. højden af linjerne.
     y2 = map(i,0,n,mouseY,50, true); 
-    
+
     line(x1,y1,x2,y2);
   } 
 }
