@@ -3,5 +3,5 @@ Jakubs projekter
 - [Stickman](stickman/)
 - [Ballbounce](bounce/)
 - [Logical-Operator-1](logicalOperator/)
-- [Loops](loops/)
+- [Loops](node/)
 - [Parabola](parabola/)
