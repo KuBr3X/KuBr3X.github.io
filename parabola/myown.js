@@ -1,4 +1,3 @@
-const { randomFill } = require("crypto");
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
