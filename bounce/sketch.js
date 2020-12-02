@@ -34,13 +34,7 @@ function draw() {
   
  
   circle(x, y, d);
-  circle(y*2,x/2,d);
-  circle(x, d, d);
-  circle(d, y, d);
-  circle(x, y, x);
-  circle(d, y, d);
 
-  
 
  
   if (x > width - d / 2) {
