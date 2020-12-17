@@ -50,5 +50,5 @@ function mousePressed() {
     y.push(mouseY)
     xSpeed.push(random(50,-30))
     ySpeed.push(random(50,-30))
-    d.push(random(50,120))
+    d.push(random(51,120))
 }
