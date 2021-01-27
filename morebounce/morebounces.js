@@ -12,27 +12,26 @@ let c;  //opret variablen for color
 //lav en funktion der ændre strokecolor & linecolor
 function changeColor() {
      c = color(random(255), random(255), random(255));
-     strokeWeight(5);
+     strokeWeight(15);
      stroke(c);
 }
 //lav en funktion der ændre canvas og canvascolor
 function setup() {
     background(255)
     createCanvas(windowWidth, windowHeight);
-    const speedScale = 128
+    const speedScale = 50000
     changeColor();
 }
 function draw(){
     background(c);
 
 //lav en border rundt om canvas
-//  rect (0, 0, width, height);
+ rect (0, 0, width, height);
 
 for(i=0;i<x.length;i++){
-    cFill(random(255), random(255), random(255));
 circle(x[i], y[i], d[i]);
 
-if (x[i] > width - d[i] / 2 || x[i] < 0 + d[i] / 2){
+if (x[i] > width - d[i] / 2){
     changeColor();
     xSpeed[i] = -xSpeed[i];
 }
@@ -48,7 +47,7 @@ y[i] = y[i] + ySpeed[i];
 function mousePressed() {
     x.push(mouseX)
     y.push(mouseY)
-    xSpeed.push(random(50,-30))
-    ySpeed.push(random(50,-30))
-    d.push(random(51,120))
+    xSpeed.push(random(5,-5))
+    ySpeed.push(random(-5,-5))
+    d.push(random(20,80))
 }
