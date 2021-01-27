@@ -31,7 +31,7 @@ function draw(){
 for(i=0;i<x.length;i++){
 circle(x[i], y[i], d[i]);
 
-if (x[i] > width - d[i] / 2 || x[i] < width + d[i] / 2 ){
+if (x[i] > width - d[i] / 2 || x[i] < 0 + d[i] / 2 ) {
     changeColor();
     xSpeed[i] = -xSpeed[i];
 }
